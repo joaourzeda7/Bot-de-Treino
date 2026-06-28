@@ -1,7 +1,7 @@
-# Configuração sensível - NUNCA subir o token pro Git
+# Configuração sensível 
 config.py
 
-# Banco de dados local - dados pessoais de treino, não devem ir pro repositório público
+# Banco de dados local - dados pessoais de treino
 treinos.db
 
 # Python
