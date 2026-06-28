@@ -1,6 +1,10 @@
-# Treino Bot 🏋️
+# 🏋️ Treino Bot
 
-Bot do Telegram para registrar treinos de musculação (foco em low volume) e gerar relatórios de progressão de carga, separando séries de aquecimento, preparatórias e de trabalho.
+Bot do Telegram para registrar treinos de musculação (foco em **low volume**) e gerar relatórios de progressão de carga, separando séries de aquecimento, preparatórias e de trabalho.
+
+Projeto pessoal criado para resolver um problema real: substituir anotações manuais de treino por um registro rápido via chat, com histórico organizado e progressão de carga visível por exercício.
+
+**Stack:** Python · python-telegram-bot · SQLite
 
 ## Funcionalidades
 
@@ -40,8 +44,8 @@ Sinônimos aceitos para o tipo de série:
 
 1. Clone o repositório:
    ```bash
-   git clone <seu-repo>
-   cd treino-bot
+   git clone https://github.com/joaourzeda7/Bot-de-Treino.git
+   cd Bot-de-Treino
    ```
 
 2. Instale as dependências:
@@ -87,10 +91,15 @@ treino_bot/
 python tests/teste_manual.py
 ```
 
+## Por que esse projeto
+
+Treino low-volume exige acompanhamento preciso de carga e repetições para garantir progressão real ao longo do tempo. Planilhas manuais funcionam, mas adicionam fricção no momento do treino. A ideia aqui foi reduzir esse atrito: registrar uma série direto no chat que você já usa, sem abrir app nenhum, e ter o histórico organizado automaticamente.
+
 ## Próximos passos (roadmap)
 
-- [ ] Hospedar em servidor (Render/Railway) para funcionar 24/7
+- [ ] Hospedar 24/7 em VPS gratuita (Oracle Cloud Free Tier — em andamento)
 - [ ] Botões de menu ao invés de texto livre (ConversationHandler)
 - [ ] Exportação de relatório em PDF/planilha
 - [ ] Gráfico de progressão de carga (matplotlib)
 - [ ] Editar/deletar registros incorretos
+- [ ] Auto-restart do processo em caso de queda/reinício do servidor
