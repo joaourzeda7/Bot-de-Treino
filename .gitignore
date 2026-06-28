@@ -1,0 +1,21 @@
+# Configuração sensível - NUNCA subir o token pro Git
+config.py
+
+# Banco de dados local - dados pessoais de treino, não devem ir pro repositório público
+treinos.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store

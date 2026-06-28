@@ -1,0 +1,10 @@
+"""
+Arquivo de configuração - exemplo.
+
+INSTRUÇÕES:
+1. Copie este arquivo e renomeie a cópia para "config.py" (sem o .example)
+2. Cole o token que o @BotFather te deu no lugar de SEU_TOKEN_AQUI
+3. O arquivo config.py NUNCA deve ser commitado no Git (já está no .gitignore)
+"""
+
+TELEGRAM_TOKEN = "SEU_TOKEN_AQUI"
